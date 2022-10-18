@@ -25,7 +25,7 @@ for trial in range(100):
         else:
             priorB[1] = priorB[1]+1;
         
-    if trial%10 == 0:
+    if trial%10 == 9:
         print("run " + str(trial))
         print("A =  Beta(" + str(priorA[0]) + "," + str(priorA[1]) + ")")
         print("B =  Beta(" + str(priorB[0]) + "," + str(priorB[1]) + ")")
